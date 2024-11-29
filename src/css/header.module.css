@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerSection{
+    /* border: 2px solid black; */
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 14vh;
+}
+
+.header{
+    /* border:2px solid red; */
+    height: 90%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerContent{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 5%;
+}
+.titleLogo{
+    display: flex;
+    /* border: 2px solid pink; */
+    align-items: center;
+    width: 36%;
+    justify-content: space-between;
+}
+
+.logo{
+    /* border: 1px solid green; */
+    width: 15%;
+    height: 100%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.headerAvtar{
+    /* border: 2px solid blue; */
+    height: 54%;
+    width: 4%;
+}
+
+.headerAvtar img{
+    width: 100%;
+    height: 100%;
+}

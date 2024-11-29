@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstSection{
+    /* border: 2px solid red; */
+    height: 190vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1{
+    /* border: 2px solid blue; */
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatiner1Content{
+    /* border: 2px solid green; */
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8%;
+}
+
+.conatiner1Content .Div1content{
+    width: 50%;
+    height: 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Div1content .dashboard{
+    border: 2px solid #7F56D9;
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    gap: 2%;
+    color: #6a25ff;
+    background-color: #efe2ff;
+}
+
+.dashboard .dashbordbutton{
+    border: 1px solid #7F56D9;
+    border-radius: 20px;
+    padding: 1% 2%;
+    background-color: whitesmoke;
+}
+
+.Div2content{
+    /* border: 2px solid blue;  */
+    /* height: 10%;  */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 27px;
+}
+.Div3content{
+    /* border: 2px solid blue;  */
+    /* height: 10%;  */
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    word-spacing: 1px;
+    left: 0.2px;
+    line-height: 25px;
+}
+
+.Div4content{
+    /* border: 2px solid blue; */
+     /* height: 10%;  */
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     width: 30%;
+     font-size: 20px;
+    }
+
+.demoButton{
+    border: 1px solid lightgray;
+    padding: 16px;
+    border-radius: 5px;
+}
+.signupButton{
+    border: 1px solid lightgray;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: #7F56D9;
+    color: white;
+}
+
+.container2 {
+    /* border: 2px solid blue; */
+    width: 80%;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.ImgContainer{
+    border: 2px solid black;
+    width: 100%;
+    height: 90%;
+}
+.ImgContainer img{
+    width: 100%;
+    height: 100%;
+}
